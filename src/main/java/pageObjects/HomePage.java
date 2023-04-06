@@ -8,4 +8,10 @@ import org.openqa.selenium.WebDriver;
         super(driver);
     }
 
+    public void clickOnMyAccountButton(){
+        myAccountButton.click();
+    }
+ public void clickOnRegisterButton(){
+        registerButton.click();
+ }
 }

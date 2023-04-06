@@ -37,5 +37,9 @@ public void fillInTheRegistrationForm(String firstName,String lastName,String em
     emailInput.sendKeys(email);
     passwordInput.sendKeys(password);
 }
+    public boolean allTheElementsAreDisplayed(){
+        return firstNameInput.isDisplayed() && lastNameInput.isDisplayed() && emailInput.isDisplayed() && passwordInput.isDisplayed()
+                && subscribeRadioButton.isDisplayed()&&privacyCheckbox.isDisplayed()&&continueButton.isDisplayed();
+    }
 
 }
